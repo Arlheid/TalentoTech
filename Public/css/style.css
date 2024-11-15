@@ -65,7 +65,7 @@ html {
     color: var(--dark-solid);
 }
 .body{
-    background:url(../img/wallpaperflare.com_wallpaper11.jpg) ;
+    background:url(../img/polish67.jpg) ;
     background-repeat: no-repeat;
     background-position: center center;
     background-size:  cover;
@@ -90,10 +90,19 @@ html {
     width: auto;
 }
 
+.nav_header_item{
+    font-style: bold;
+    color: red;
+}
+
+/* .nav-link {
+    color:red;
+} */
+
 .main_banner{
     display: flex;
-    color: rgb(136, 73, 49);
-    flex-direction: column;
+    color: goldenrod;
+    flex-direction:column ;
     align-items: center;
     justify-content: center;
     padding-bottom: 2em;
@@ -127,6 +136,10 @@ font-family: var(--alternative-font);
 
 .card{
     background-color: var(--primary-solid);
+}
+
+.card-title {
+    font-style: oblique;
 }
 
 /*CSS Register Inicio*/
